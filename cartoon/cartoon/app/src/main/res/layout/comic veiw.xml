@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="다음화 보기"
+            />
+
+        <Button
+            android:id="@+id/draw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="다음화 그리기"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:fillViewport="true"
+        android:layout_marginTop="0dp"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/webtoon_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webtoon_1"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/webtoon_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webtoon_2"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+
+            <ImageView
+                android:id="@+id/webtoon_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webtoon_3"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/webtoon_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webtoon_4"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/webtoon_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webtoon_5"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/webtoon_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webtoon_6"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/webtoon_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webtoon_7"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/webtoon_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webtoon_8"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
