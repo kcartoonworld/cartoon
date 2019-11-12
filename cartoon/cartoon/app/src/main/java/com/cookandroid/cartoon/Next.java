@@ -4,12 +4,10 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageView;
 
@@ -20,7 +18,7 @@ public class Next extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.next);
+        setContentView(R.layout.activity_next);
         setTitle("그리드뷰 테스트");
 
         final GridView gv = (GridView) findViewById(R.id.gridView1);
@@ -64,7 +62,7 @@ public class Next extends AppCompatActivity {
             imageview.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    View dialogView = (View) View.inflate(Next.this, R.layout.dialog, null);
+                    View dialogView = (View) View.inflate(Next.this, R.layout.activity_dialog, null);
                     AlertDialog.Builder dlg = new AlertDialog.Builder(Next.this);
                     ImageView ivPoster = (ImageView) dialogView.findViewById(R.id.ivPoster);
                     ivPoster.setImageResource(userDraw[pos]);

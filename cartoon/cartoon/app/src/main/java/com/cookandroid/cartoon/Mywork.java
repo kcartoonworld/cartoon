@@ -1,4 +1,14 @@
 package com.cookandroid.cartoon;
 
-public class Mywork {
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Mywork extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_mywork);
+    }
 }

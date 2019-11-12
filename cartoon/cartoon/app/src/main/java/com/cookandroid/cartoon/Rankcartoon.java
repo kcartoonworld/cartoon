@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Rankcartoon extends main {
+public class Rankcartoon extends MainActivity {
     Button userranking;
     Intent intent;
 
