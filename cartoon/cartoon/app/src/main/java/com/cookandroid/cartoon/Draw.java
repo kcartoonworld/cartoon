@@ -1,4 +1,4 @@
-package com.cookandroid.cartoon_1;
+package com.cookandroid.cartoon;
 
 import android.content.Intent;
 import android.os.Bundle;

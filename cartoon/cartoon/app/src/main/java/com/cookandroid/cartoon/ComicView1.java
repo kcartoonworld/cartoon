@@ -1,4 +1,4 @@
-package com.cookandroid.cartoon_1;
+package com.cookandroid.cartoon;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class MainActivity extends AppCompatActivity {
+public class ComicView1 extends AppCompatActivity {
 
     Button next, draw;
 

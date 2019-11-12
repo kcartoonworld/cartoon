@@ -1,4 +1,4 @@
-package com.cookandroid.cartoon_1;
+package com.cookandroid.cartoon;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;

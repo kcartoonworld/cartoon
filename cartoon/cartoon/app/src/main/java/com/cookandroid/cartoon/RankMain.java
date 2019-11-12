@@ -1,4 +1,4 @@
-package com.cookandroid.ranksys;
+package com.cookandroid.cartoon;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,5 @@ public class RankMain extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rank_main);
     }
 }

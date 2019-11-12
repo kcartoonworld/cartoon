@@ -1,4 +1,4 @@
-package com.cookandroid.ranksys;
+package com.cookandroid.cartoon;
 
 import androidx.appcompat.app.AppCompatActivity;
 
