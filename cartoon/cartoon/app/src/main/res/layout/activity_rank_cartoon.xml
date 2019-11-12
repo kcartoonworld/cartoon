@@ -24,8 +24,8 @@
         android:layout_width="400dp"
         android:layout_height="25dp"
         android:layout_weight="1"
-        android:background="none"
         android:gravity="right"
+        android:background="#FFFFFF"
         android:text="인기 작가 순위보기>"
         android:textSize="20dp" />
 
