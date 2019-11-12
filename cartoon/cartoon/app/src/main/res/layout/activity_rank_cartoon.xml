@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RankCartoon">
+
+    <TextView
+        android:id="@+id/RankCTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="인기 만화 순위"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/ranktitle"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/toRankU"
+        android:layout_width="400dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="none"
+        android:gravity="right"
+        android:text="인기 작가 순위보기>"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/CRank1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1위:"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/CRank2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="2위:"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/CRank3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="3위:"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/CRank4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="4위:"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/CRank5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="5위:"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/CRank6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="6위:"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/CRank7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:text="7위:"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/CRank8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:text="8위:"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/CRank9"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:text="9위:"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/CRank10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:text="10위:"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/none2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        />
+</LinearLayout>
