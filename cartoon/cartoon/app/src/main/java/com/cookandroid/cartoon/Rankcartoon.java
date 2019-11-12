@@ -5,24 +5,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class main extends AppCompatActivity {
-    Button ranking;
+public class Rankcartoon extends main {
+    Button userranking;
     Intent intent;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_rank_cartoon);
 
         intent = getIntent();
-        ranking = (Button) findViewById(R.id.ranking);
+        userranking = (Button) findViewById(R.id.toRankU);
 
-        ranking.setOnClickListener(new View.OnClickListener() {
+        userranking.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Rankcartoon.class);
+                Intent intent = new Intent(getApplicationContext(), RankUser.class);
                 startActivity(intent);
             }
         });

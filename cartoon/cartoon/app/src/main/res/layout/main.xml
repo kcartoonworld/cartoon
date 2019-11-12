@@ -39,7 +39,7 @@
                 android:textSize="25dp"
                 android:text="만화" />
             <Button
-                android:id="@+id/lanking"
+                android:id="@+id/ranking"
                 android:layout_width="220dp"
                 android:background="#FFFFFF"
                 android:textSize="25dp"

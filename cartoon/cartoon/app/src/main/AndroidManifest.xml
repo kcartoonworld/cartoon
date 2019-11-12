@@ -18,6 +18,14 @@
         </activity>
         <activity android:name=".join"></activity>
         <activity android:name=".main"></activity>
+        <activity android:name=".Next"></activity>
+        <activity android:name=".Rankcartoon"></activity>
+        <activity android:name=".RankUser"></activity>
+        <activity android:name=".Userinfo"></activity>
+        <activity android:name=".Draw"></activity>
+
+
+
     </application>
 
 </manifest>
