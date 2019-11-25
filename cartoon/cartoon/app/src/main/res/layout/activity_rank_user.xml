@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RankUser">
+
+    <TextView
+        android:id="@+id/RankUTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/ranktitle"
+        android:text="인기 작가 순위"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/toRankC"
+        android:layout_alignParentRight="true"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/RankUTitle"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:layout_marginRight="-10dp"
+        android:textSize="20dp"
+        app:srcCompat="@drawable/gocartoon" />
+
+    <ImageView
+        android:id="@+id/gold"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/toRankC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/gold" />
+
+    <TextView
+        android:id="@+id/firstU"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gold"
+        android:layout_centerHorizontal="true"
+        android:text="1위작가, 201채택"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/silver"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/firstU"
+        android:layout_alignParentLeft="true"
+        app:srcCompat="@drawable/silver" />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/silver"
+        android:text="2위작가, 190채택"
+        android:textSize="20dp" />
+    <ImageView
+        android:id="@+id/bronze"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/firstU"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/bronze" />
+
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bronze"
+        android:layout_alignParentRight="true"
+        android:text="3위작가, 180채택"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/fourth"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/third"
+        android:text="4위: 4위작가, 160채택"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/fifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fourth"
+        android:text="5위: 5위작가, 150채택"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/sixth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fifth"
+        android:text="6위: 6위작가, 140채택"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/seventh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sixth"
+        android:text="7위: 7위작가, 130채택"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/eighth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seventh"
+        android:text="8위: 8위작가, 120채택"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/ninth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eighth"
+        android:text="9위: 9위작가, 110채택"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/tenth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ninth"
+        android:text="10위: 10위작가, 100채택"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
